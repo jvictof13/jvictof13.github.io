@@ -9,7 +9,7 @@ body {
     font-family: "Inter", sans-serif;
     margin: 0;
     padding: 0;
-    min-height: 100vh; /* Garante que o body ocupe toda a altura da viewport */
+    min-height: 100vh; 
 }
 
 * {
@@ -45,7 +45,7 @@ nav {
     transform: translateX(-50%);
     border-radius: 16px;
     padding: 12px;
-    background-color: rgba(0, 0, 0, 0.5); /* Adicionado para melhor contraste */
+    background-color: rgba(0, 0, 0, 0.5); 
 }
 
 nav .logo {
@@ -55,7 +55,7 @@ nav .logo {
 }
 
 nav .logo img {
-    width: 50px; /* Aumentado o tamanho da logo */
+    width: 50px; 
     height: 50px;
 }
 
@@ -71,11 +71,11 @@ nav .nav-links {
 
 nav .nav-links a {
     font-size: 14px;
-    color: #fff; /* Corrigido de color-scheme para color */
+    color: #fff; 
 }
 
 nav .nav-links a:hover {
-    color: #ddd; /* Alteração para um efeito de hover visível */
+    color: #ddd;
 }
 
 nav button {
@@ -205,11 +205,10 @@ nav button i {
 
 .About {
     display: flex;
-    width: fit-content;
-    color: #fff;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
+    align-items: center;
+    color: #fff;
+    justify-content: center;
     background: #1B00FF;
     padding: 50px;
     gap: 20px;
